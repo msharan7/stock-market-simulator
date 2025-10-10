@@ -1,0 +1,11 @@
+COMMENT: basic trade info test, also includes a self trade
+MODE: TL
+NUM_TRADERS: 4
+NUM_STOCKS: 2
+0 SELL T0 S0 $15 #2
+0 BUY T1 S0 $30 #1
+1 BUY T1 S0 $50 #2
+1 SELL T1 S1 $10 #3
+2 SELL T2 S0 $60 #1
+2 BUY T1 S1 $20 #3
+3 SELL T3 S0 $150 #1

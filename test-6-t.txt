@@ -1,0 +1,13 @@
+COMMENT: time traveler, makes sure to test every branch in my switch function, also makes sure to cover a stock where no profit is made
+MODE: TL
+NUM_TRADERS: 6
+NUM_STOCKS: 2
+0 SELL T0 S0 $50 #1
+1 BUY T1 S0 $40 #1
+1 SELL T0 S0 $40 #1
+1 BUY T1 S1 $25 #1
+2 BUY T1 S0 $60 #1
+3 BUY T2 S0 $70 #1
+4 SELL T3 S0 $30 #1
+5 SELL T4 S0 $15 #1
+6 BUY T5 S0 $90 #1

@@ -1,0 +1,11 @@
+COMMENT: Basic median test, even and odd number of trades, includes unused stock
+MODE: TL
+NUM_TRADERS: 3
+NUM_STOCKS: 3
+0 SELL T0 S0 $15 #1
+0 BUY T1 S0 $15 #1
+1 BUY T2 S0 $30 #1
+2 SELL T0 S0 $50 #1
+2 BUY T1 S0 $50 #1
+2 SELL T0 S1 $100 #1
+3 BUY T1 S1 $100 #1

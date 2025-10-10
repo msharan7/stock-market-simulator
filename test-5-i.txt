@@ -1,0 +1,6 @@
+COMMENT: num stocks and traders edge case
+MODE: TL
+NUM_TRADERS: 2
+NUM_STOCKS: 6
+0 SELL T0 S5 $20 #1
+0 BUY T1 S5 $20 #2

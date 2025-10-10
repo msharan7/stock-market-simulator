@@ -1,0 +1,11 @@
+COMMENT: time traveler, but tests tiebreaks this time
+MODE: TL
+NUM_TRADERS: 7
+NUM_STOCKS: 1
+0 BUY T0 S0 $40 #1
+0 SELL T1 S0 $20 #1
+0 SELL T2 S0 $20 #1
+1 BUY T3 S0 $40 #1
+1 BUY T4 S0 $40 #1
+2 SELL T5 S0 $20 #1
+3 BUY T6 S0 $40 #1

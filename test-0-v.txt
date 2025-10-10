@@ -1,0 +1,12 @@
+COMMENT: Basic v test, has a tiebreak from earlier sell, has order with leftover values
+MODE: TL
+NUM_TRADERS: 5
+NUM_STOCKS: 2
+0 SELL T0 S0 $70 #8
+0 SELL T1 S0 $70 #3
+1 BUY T2 S0 $90 #10
+2 SELL T0 S0 $70 #1
+3 BUY T2 S0 $70 #2
+3 BUY T3 S1 $80 #2
+3 SELL T4 S1 $70 #1
+3 SELL T3 S1 $60 #1
