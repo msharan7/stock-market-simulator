@@ -1,6 +1,10 @@
-COMMENT: num stocks and traders edge case
+COMMENT: trader info, basic logic
 MODE: TL
-NUM_TRADERS: 2
-NUM_STOCKS: 6
-0 SELL T0 S5 $20 #1
-0 BUY T1 S5 $20 #2
+NUM_TRADERS: 6
+NUM_STOCKS: 2
+5 SELL T0 S0 $25 #10
+5 BUY T1 S0 $75 #5
+10 BUY T2 S0 $75 #5
+15 SELL T0 S1 $45 #10
+15 BUY T1 S1 $45 #5
+20 BUY T2 S1 $75 #5

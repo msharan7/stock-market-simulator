@@ -1,0 +1,4 @@
+COMMENT: empty file (no orders)
+MODE: TL
+NUM_TRADERS: 12
+NUM_STOCKS: 6

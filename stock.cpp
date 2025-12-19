@@ -142,7 +142,7 @@ void Stock::tryMatch(bool b, uint32_t s, Order & o) {
         auto & buys = stocks[s].buys;
         while(o.quantity > 0 && !sells.empty()) { // o is buying, compare is selling
             Order compare = sells.top();
-            if(compare.price > o.price) { // sell order should be less than buy
+            if(compare.price > o.price) { // sell order should be less than buy, orders are already by stock, we already are only comparing buy and sell, so only need to compare prices
                 break;
             }
             sells.pop(); // match is made 
